@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'Share Tech Mono';
+    src: url('assets/fonts/ShareTechMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+@import url('assets/css/footer.css');
+:root{
+    --c1: #ade1fb;
+    --c2: #266ca9;
+    --c3: #0f2573;
+    --c4: #041d56;
+    --c5: #01082d;
+}
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 12px;
+}
+#nav-principal{
+    box-shadow: 3px 3px 10px;
+    background-color: var(--c2);
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.listaelem{
+    list-style-type: none;
+    flex: auto;
+    margin: 40px 40px;
+}
+h2, h1{
+    font-family: 'Share Tech Mono', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: var(--c1);
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+#mudartema{
+    padding: 4px;
+    height: 30px;
+    background-color: var(--c3);
+}
+body{
+    background-color: var(--c3);
+    box-shadow: 3px 3px 10px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+}
+#sobrenos p{
+    color: rgb(255, 255, 255);
+    font-family: "Share Tech Mono", Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    text-align:justify ;
+    margin: 80px;
+    display: flex;
+    flex: auto;
+}
+#servicos{
+    padding: 20px;
+    display: grid;
+    margin: 40px;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+       
+}
+.princi-prods p{
+    color: white;
+    font-family: "Share Tech Mono", Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+}
+.princi-prods h3{
+    margin: 10px;
+    text-align: left;
+    font-family: "Share Tech Mono", Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+}
+.princi-prods header{
+    display: flex;
+    
+}
+.princi-prods img{
+    margin: auto 32px;
+}
+.princi-prods{
+    background-color: var(--c2);
+    width: 300px;  
+   height: 300px;
+   padding: 20px;
+   margin: 20px auto;
+   border-radius: 10px;
+   cursor: pointer;
+   border: 1px solid black
+}
+
+.princi-prods:hover{
+    transition: 1s;
+    box-shadow: 3px 4px 11px;
+
+}
+
+#precos{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonprod:hover{
+    transition: 1s;
+    background-color: #000000;
+}
+.planos{
+    width: 400px;
+    background-color: var(--c2);
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;     
+    justify-content: space-between; 
+    align-items: center;  
+}
+.planos h2, h3, p{
+    margin: 8px;
+    text-align: center;
+}
+input{
+    cursor: pointer;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: transparent;
+}
+input:hover{
+    transition: 0.2s;
+    background-color: rgb(8, 54, 97);
+    color: white;
+}
+@media(max-width: 1060px){
+    main{
+        margin: 0 0px;
+    }
+    #precos{
+        flex-wrap: wrap;
+    }
+    #servicos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 860px){
+    main{
+        margin: 0 0px;
+    }
+    #precos{
+        flex-wrap: wrap;
+    }
+    #servicos{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

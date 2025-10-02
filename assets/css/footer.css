@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Share Tech Mono';
+    src: url('assets/fonts/ShareTechMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+*{
+    font: 12px;
+}
+:root{
+    --c1: #ade1fb;
+    --c2: #266ca9;
+    --c3: #0f2573;
+    --c4: #041d56;
+    --c5: #01082d;
+}
+#rodape{
+    background-color: var(--c5);
+    padding: 40px;
+    margin: 0;
+}
+#containerfooter{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+    flex: auto;
+    flex-wrap: wrap;
+}
+.divfooter{
+    margin: 40px;
+    flex: auto;
+    background-color: var(--c3);
+    padding: 40px;
+    border-radius: 20px;
+}
+.sociais{
+    display: flex;
+    flex: auto;
+    
+}
+.imgfooter{
+    margin: 20px auto;
+    cursor: pointer;
+}
+.sociais img:hover{
+    transition: 0.3s;
+    transform: rotate(1deg) scale(1.5);
+    
+}
+.endereco p{
+    color: beige;
+    font-family: 'Share Tech Mono';
+
+}
+.direitos{
+    font-family: 'Share Tech Mono';
+    color: var(--c2);
+}
+.conheca{
+     margin: 40px auto;
+    }
+.conheca a{
+        font-family: 'Share Tech Mono';
+}
+
+@media (max-width: 860px) {
+    .sociais img{
+        margin: 10px auto;
+    }
+}
