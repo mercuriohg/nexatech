@@ -52,7 +52,10 @@ body{
 a{
     color: white;
     text-decoration: none;
-
+}
+a:hover{
+    transition: 2s;
+    text-decoration: underline;
 }
 #sobrenos p{
     color: rgb(255, 255, 255);
@@ -217,7 +220,6 @@ input:hover{
   }
 
   #nav-principal {
-    flex-direction: column;
     align-items: flex-start;
   }
 
