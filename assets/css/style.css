@@ -167,6 +167,15 @@ input:hover{
   color: inherit;
   cursor: pointer;
 }
+#mapa{
+    text-align: center;
+    margin: 42px;
+}
+iframe{
+    border-radius: 20px;
+    width: 90%;
+    margin: 20px;
+}
 @media(max-width: 1060px){
     main{
         margin: 0 0px;
@@ -202,7 +211,7 @@ input:hover{
     display: none;
     width: 100%;
     flex-direction: column;
-    background: #111;
+    background: var(--c2);
     text-align: center;
     padding: 10px 0;
   }
