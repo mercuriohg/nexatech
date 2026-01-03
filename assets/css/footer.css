@@ -66,4 +66,8 @@
     .sociais img{
         margin: 10px auto;
     }
+    .sociais{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
