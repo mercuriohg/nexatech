@@ -113,7 +113,10 @@ a:hover{
     display: flex;
     justify-content: center;
 }
-
+.buttonprod{
+    margin-left:35%;
+    margin-top: 20%;
+}
 .buttonprod:hover{
     transition: 1s;
     background-color: #000000;
