@@ -26,10 +26,10 @@
     flex-wrap: wrap;
 }
 .divfooter{
-    margin: 40px;
+    margin: 20px;
     flex: auto;
     background-color: var(--c3);
-    padding: 40px;
+    padding: 20px;
     border-radius: 20px;
 }
 .sociais{
