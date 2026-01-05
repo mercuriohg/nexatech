@@ -51,6 +51,10 @@
     font-family: 'Share Tech Mono';
 
 }
+.colab{
+    display: flex;
+    flex-direction: row;
+}
 .direitos{
     font-family: 'Share Tech Mono';
     color: var(--c2);
